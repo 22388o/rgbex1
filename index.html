@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>RGBex: RGB smart contracts and asset explorer</title>
+    <meta name="description" content="Find information about RGB assets, contracts, issuers, interfaces, schema, developers">
+
+    <link rel="stylesheet" href="/static/main.css">
+    <link rel="stylesheet" href="/static/grid.css">
+    
+    <link rel="stylesheet" href="/static/index.css">
+
+
+    <!-- favicons -->
+    <link rel="icon" href="/static/favicon.png" sizes="32x32">
+    <link rel="icon" href="/static/favicon-128.png" sizes="128x128">
+    <link rel="icon" href="/static/favicon-180.png" sizes="180x180">
+
+    <meta property="og:title" content="RGB smart contracts explorer" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://rgbex.io/static/banner.png" />
+    <meta property="og:description" content="Find RGB assets, issuers, interfaces, schemata, developers">
+    <meta property="og:site_name" content="RGB protocol">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@rgbexio">
+</head>
+
+<body>
+<header>
+    
+    <a  class="active"  id="logo" href="/"><img src="/static/img/rgbex-header.png"></a>
+    <nav>
+        <a  href="/assets">Assets</a>
+        <a  href="/issuers">Issuers</a>
+        <a  href="/interfaces">Interfaces</a>
+        <a  href="/schemata">Schemata</a>
+        <a  href="/devs">Devs</a>
+        <a  href="https://docs.rgbex.io" target="_blank" class="ml-2em">APIs</a>
+    </nav>
+    <div style="clear: both"></div>
+</header>
+
+<main>
+    
+    <section>
+        <aside class="banner">RGBEXplorer</aside>
+        <h1>RGBEXplorer</h1>
+        <form action="/search" autocomplete="off" method="get">
+            <p>Search the world of RGB smart contracts on Bitcoin and Lightning Network</p>
+            <div>
+                <input type="search" name="term" placeholder="Search by ticker / asset name / contract id / schema id / interface name"/>
+                <input type="image" src="/static/img/magnifier.png" alt="Search" />
+            </div>
+            <!-- nav>
+                <input type="checkbox" name="stablecoins" id="stablecoins" checked />
+                <label for="stablecoins">Stablecoins</label>
+                <input type="checkbox" name="stablecoins" id="stablecoins2" />
+                <label for="stablecoins2">Stablecoins</label>
+            </nav -->
+        </form>
+        <p><small>
+            If you want to learn more about RGB smart contracts, you can check
+            <a href="https://rgb.tech">rgb.tech</a> and <a href="https://www.rgbfaq.com">rgbfaq.com</a> websites
+        </small></p>
+    </section>
+
+    <section>
+        <hr/>
+    </section>
+
+    <section>
+        <ul class="dashboard">
+            <li>
+                <aside>4</aside>
+                <h2>assets</h2>
+                <a href="https://forms.gle/w9HD5XE3tC4dtUdK9" target="_blank" class="nodecor"><button class="alt">List your asset</button></a>
+            </li>
+
+            <li>
+                <aside>4</aside>
+                <h2>contracts</h2>
+                <a href="https://forms.gle/w9HD5XE3tC4dtUdK9" target="_blank" class="nodecor"><button>Reserve asset ticker</button></a>
+            </li>
+
+            <li>
+                <aside>3</aside>
+                <h2>issuers</h2>
+                <a href="https://forms.gle/w9HD5XE3tC4dtUdK9" target="_blank" class="nodecor"><button class="alt2">Become issuer</button></a>
+            </li>
+        </ul>
+
+        <ul class="dashboard">
+            <li>
+                <aside>3</aside>
+                <h2>interfaces</h2>
+                <p><small>
+                    RGB smart contracts interact with the world via interfaces providing API for wallets,
+                    exchanges and other software. They define types of assets and contracts, like tokens,
+                    NFTs, DAOs, identity etc.
+                </small></p>
+            </li>
+
+            <li>
+                <aside>3</aside>
+                <h2>schemata</h2>
+                <p><small>
+                    Schemata are “templates” for creating smart contracts and issuing assets.
+                    They allow to separate the role of programmer from the role of contract and asset
+                    issuers and reduce risks in designing contracts.
+                </small></p>
+            </li>
+
+            <li>
+                <aside>5</aside>
+                <h2>developers</h2>
+                <p><small>
+                    RGB smart contracts are developed either in Rust by using
+                    <a href="https://docs.rs/rgb-std">RGB standard library</a>
+                    - or with a specially-designed Haskell-like programming language called
+                    <a href="https://www.contractum.com">Contractum</a>,
+                    which is currently in active development.
+                </small></p>
+            </li>
+        </ul>
+        <div style="clear: both; margin-bottom: 3em"></div>
+    </section>
+
+</main>
+
+<footer>
+    <p class="f-right a-right mw-50p">This website doesn't use any cookies, trackers, javascript or local storage<br/>
+        Website ismade with HTML5 &amp; CSS3 only.</p>
+    <p>&copy; 2021-2023 <a href="https://www.pandoraprime.ch" target="_blank">Pandora Prime Inc</a>. All rights reserved.</p>
+</footer>
+</body>
